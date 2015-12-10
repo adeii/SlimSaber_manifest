@@ -474,7 +474,7 @@
 
   <project path="external/sqlite" name="android_external_sqlite" remote="slimsaber" revision="mm6.0" groups="pdk" />
 
-  <project path="frameworks/av" name="android_frameworks_av" remote="slimsaber" revision="mm6.0" groups="pdk" />
+  <project path="frameworks/av" name="frameworks_av" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="slimsaber" revision="mm6.0" />
 
