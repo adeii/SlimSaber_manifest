@@ -91,7 +91,6 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-6.0" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -100,17 +99,14 @@
   <project path="external/embunit" name="platform/external/embunit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-6.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-6.0" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" />
   <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-6.0" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
-  <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-6.0" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" />
@@ -210,7 +206,6 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-6.0"/>
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
@@ -470,6 +465,12 @@
   <!-- SlimSaber -->
   <project path="android" name="platform_manifest" remote="slimsaber" revision="mm6.0" />
   <project path="art" name="android_art" remote="slimsaber" revision="mm6.0" groups="pdk" />
+
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-13.0" groups="pdk" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-13.0" groups="pdk" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-13.0" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-13.0"/>
 
   <project path="external/sqlite" name="android_external_sqlite" remote="slimsaber" revision="mm6.0" groups="pdk" />
 
