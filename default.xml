@@ -163,7 +163,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="android_external_libpng" remote="omnirom" revision="android-6.0" groups="pdk" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" />
@@ -255,7 +254,6 @@
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -431,7 +429,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-6.0" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-6.0" />
@@ -461,9 +458,11 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-13.0" />
+  <project path="external/libpng" name="android_external_libpng" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-13.0"/>
   <project path="external/sepolicy" name="android_external_sepolicy" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" remote="slimsaber" revision="mm6.0" groups="pdk" />
+  <project path="external/zlib" name="android_external_zlib" remote="slimsaber" revision="mm6.0" groups="pdk" />
 
   <project path="frameworks/av" name="frameworks_av" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs" />
@@ -494,6 +493,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs" />
 
   <project path="system/core" name="android_system_core" remote="slimsaber" revision="mm6.0" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="slimsaber" revision="mm6.0" />
 
   <project path="vendor/omni" name="android_vendor_omni" remote="slimsaber" revision="mm6.0" />
