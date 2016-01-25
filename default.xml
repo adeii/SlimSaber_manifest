@@ -29,7 +29,6 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-6.0" groups="pdk" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs"/>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -453,6 +452,8 @@
   <!-- SlimSaber -->
   <project path="android" name="platform_manifest" remote="slimsaber" revision="mm6.0" />
   <project path="art" name="android_art" remote="slimsaber" revision="mm6.0" groups="pdk" />
+
+  <project path="bootable/recovery" name="bootable_recovery" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs"/>
 
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
