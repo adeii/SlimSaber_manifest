@@ -28,7 +28,6 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-6.0" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -324,7 +323,6 @@
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-6.0" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-6.0" groups="qcom_wlan" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-6.0" groups="pdk" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -453,6 +451,7 @@
   <project path="android" name="platform_manifest" remote="slimsaber" revision="mm6.0" />
   <project path="art" name="android_art" remote="slimsaber" revision="mm6.0" groups="pdk" />
 
+  <project path="bionic" name="android_bionic" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs"/>
 
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-13.0" groups="pdk" />
@@ -469,6 +468,8 @@
   <project path="frameworks/base" name="frameworks_base" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="slimsaber" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slimsaber" revision="mm6.0" groups="pdk" />
+
+  <project path="hardware/ril" name="hardware_ril" remote="slimsaber" revision="mm6.0" groups="pdk" />
 
   <project path="libcore" name="platform_libcore" remote="slimsaber" revision="mm6.0" groups="pdk" />
 
