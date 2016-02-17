@@ -245,7 +245,6 @@
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
-  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" />
@@ -459,6 +458,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="slimsaber" revision="mm6.0" groups="pdk" />
+  <project path="external/webp" name="android_external_webp" remote="slimsaber" revision="mm6.0" groups="pdk,qcom_msm8x26" />
   <project path="external/zlib" name="android_external_zlib" remote="slimsaber" revision="mm6.0" groups="pdk" />
 
   <project path="frameworks/av" name="frameworks_av" remote="slimsaber" revision="mm6.0" groups="pdk" />
