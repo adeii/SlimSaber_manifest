@@ -447,6 +447,9 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs"/>
   <project path="dalvik" name="android_dalvik" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs,pdk-fs" />
 
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-13.0" groups="pdk" />
