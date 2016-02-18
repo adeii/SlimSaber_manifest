@@ -158,7 +158,6 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" />
@@ -453,6 +452,7 @@
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-13.0" />
   <project path="external/libpng" name="android_external_libpng" remote="slimsaber" revision="mm6.0" groups="pdk" />
+  <project path="external/libphonenumber" name="android_external_libphonenumber" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-13.0"/>
   <project path="external/sepolicy" name="android_external_sepolicy" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" remote="slimsaber" revision="mm6.0" groups="pdk" />
