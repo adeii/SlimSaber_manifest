@@ -441,7 +441,7 @@
   <!-- SlimSaber -->
   <project path="android" name="platform_manifest" remote="slimsaber" revision="mm6.0" />
   <project path="art" name="android_art" remote="slimsaber" revision="mm6.0" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="slimsaber" revision="mm6.0" groups="pdk" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs"/>
   <project path="dalvik" name="android_dalvik" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs,pdk-fs" />
 
