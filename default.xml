@@ -374,7 +374,6 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-6.0" />
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="omnirom" revision="android-6.0" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -490,6 +489,7 @@
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="slimsaber" revision="mm6.0" />
 
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="slimsaber" revision="mm6.0" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimsaber" revision="mm6.0" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="slimsaber" revision="mm6.0" />
 
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="slimsaber" revision="mm6.0" />
