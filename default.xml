@@ -466,7 +466,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="slimsaber" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slimsaber" revision="mm6.0" groups="pdk" />
-  <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" remote="github" revision="mm6.0" />
+  <project path="frameworks/opt/slim" name="frameworks_opt_slim" remote="slimsaber" revision="mm6.0" />
 
   <project path="hardware/ril" name="hardware_ril" remote="slimsaber" revision="mm6.0" groups="pdk" />
 
