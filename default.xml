@@ -322,6 +322,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="omnirom" revision="android-6.0" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omnirom" revision="android-6.0" />
@@ -476,7 +477,6 @@
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-13.0" />
 
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slimsaber" revision="mm6.0" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="slimsaber" revision="mm6.0" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="slimsaber" revision="mm6.0" />
