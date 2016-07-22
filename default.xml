@@ -18,6 +18,9 @@
   <remote  name="slimsaber"
            fetch="https://github.com/SlimSaber" />
 
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/slimsaber/" />
+
   <default revision="refs/tags/android-6.0.1_r54"
            remote="aosp"
            sync-c="true"
