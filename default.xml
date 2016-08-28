@@ -345,6 +345,7 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom" revision="android-6.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
