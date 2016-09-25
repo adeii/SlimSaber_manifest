@@ -223,7 +223,6 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-6.0" groups="pdk,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
@@ -460,6 +459,7 @@
   <project path="external/libphonenumber" name="android_external_libphonenumber" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-13.0"/>
   <project path="external/sepolicy" name="android_external_sepolicy" remote="slimsaber" revision="mm6.0" groups="pdk" />
+  <project path="external/skia" name="android_external_skia" remote="slimsaber" revision="mm6.0" groups="pdk,qcom_msm8x26" />
   <project path="external/sqlite" name="android_external_sqlite" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="slimsaber" revision="mm6.0" groups="pdk" />
