@@ -21,8 +21,8 @@
   <remote  name="bitbucket"
            fetch="https://bitbucket.org/slimsaber/" />
 
-  <!-- if everything OK, can be updated to r79 or r80 -->
-  <default revision="refs/tags/android-6.0.1_r77"
+  <!-- if everything OK with r77, can be updated to r79 or r80 -->
+  <default revision="refs/tags/android-6.0.1_r79"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
